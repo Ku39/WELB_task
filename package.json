@@ -1,0 +1,23 @@
+{
+  "name": "test_task_from_welbex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "users": "node ./Users/Users.js",
+    "dev": "nodemon ./Notes/Notes.js"
+  },
+  "author": "Ku39",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.19",
+    "pg": "^8.7.3",
+    "readline": "^1.3.0",
+    "uniqid": "^5.4.0"
+  }
+}
